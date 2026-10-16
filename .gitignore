@@ -1,0 +1,30 @@
+# Dependencies and local package-manager state
+node_modules/
+.npm-cache/
+.npm/
+.pnpm-store/
+.npmrc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local release artifacts and temporary output
+*.tgz
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+coverage/
+.tmp/
+tmp/
+
+# Local environment and editor/OS state
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

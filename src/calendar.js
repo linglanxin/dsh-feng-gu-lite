@@ -1,0 +1,7 @@
+// Statutory dates and ambiguous leave weekdays are intentionally separate.
+export const calendarData = {
+  years: [2026],
+  holidays: ['2026-01-01', '2026-02-16', '2026-02-17', '2026-02-18', '2026-02-19', '2026-04-05', '2026-05-01', '2026-05-02', '2026-06-19', '2026-09-25', '2026-10-01', '2026-10-02', '2026-10-03'],
+  uncertain: ['2026-01-02', '2026-02-20', '2026-02-23', '2026-04-06', '2026-05-04', '2026-05-05', '2026-10-05', '2026-10-06', '2026-10-07'],
+  source: 'https://www.gov.cn/zhengce/content/202411/content_6986380.htm ; https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm'
+};
